@@ -41,6 +41,44 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'raleway-regular';
+    src: url('../fonts/raleway-regular.eot');
+    src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular.woff') format('woff'),
+         url('../fonts/raleway-regular.ttf') format('truetype'),
+         url('../fonts/raleway-regular.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'raleway-bold';
+    src: url('../fonts/raleway-bold.eot');
+    src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-bold.woff') format('woff'),
+         url('../fonts/raleway-bold.ttf') format('truetype'),
+         url('../fonts/raleway-bold.svg#ralewaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'raleway-semibold';
+    src: url('../fonts/raleway-semibold.eot');
+    src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-semibold.woff') format('woff'),
+         url('../fonts/raleway-semibold.ttf') format('truetype'),
+         url('../fonts/raleway-semibold.svg#ralewaysemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* Apply these base styles to all icons */
 .i-ghost, .icon-feed, .icon-twitter, .icon-google-plus, .icon-facebook {
     font-family: 'icons';
@@ -89,7 +127,7 @@ body {
     height: 100%;
     max-height: 100%;
     /*font-family: 'Droid Serif', serif;*/
-    font-family: 'Roboto Slab', serif;
+    font-family: 'raleway-regular', serif;
     font-size: 2.0rem;
     line-height: 1.6em;
     color: #565656;
@@ -123,13 +161,13 @@ h4, h5, h6 {
     line-height: 1;
     margin-top: 0;
     margin-bottom: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'raleway-bold', sans-serif;
 }
 h3, h4, h5, h6 {
     text-rendering: optimizeLegibility;
     line-height: 120%;
     margin-top: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'raleway-bold', sans-serif;
     margin-bottom: 0%;
 }
 
