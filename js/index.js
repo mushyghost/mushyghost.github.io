@@ -21,7 +21,17 @@ var $post = $('.post'),
     $(document).ready(function(){
 
         $postholder.each(function (e) {
-        	if(e % 2 != 0)
+					if(e == 2){
+        		$(this).css({
+										'text-align': 'center',
+                })
+					}
+        	else if(e % 2 != 0){
+        		$(this).css({
+										'text-align': 'right',
+                })
+					}
+					if(e % 2 != 0)
         		$(this).css({
                     'background': '#3b3f3f',
                     'color'     : '#eaeaea',
@@ -30,7 +40,9 @@ var $post = $('.post'),
         })
 
         $postcontent.each(function (e) {
-        	if(e % 2 != 0)
+        	if(e == 2)
+      			$(this).children().css('text-align', 'center')
+        	else if(e % 2 != 0)
       			$(this).children().css('text-align', 'right')
         })
 
